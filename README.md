@@ -7,7 +7,7 @@ This is a fork of this clock app that includes deployments for Azure Kubernetes 
 
 In Azure cloud shell:
 
-```
+
 git clone https://github.com/jaydestro/react-clock-basic.git
 
 az group create  --name $NAME --location eastus
