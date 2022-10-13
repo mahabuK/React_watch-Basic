@@ -1,9 +1,9 @@
 #!/bin/bash
 
-AKS_RESOURCE_GROUP=
-AKS_CLUSTER_NAME=
-ACR_RESOURCE_GROUP=
-ACR_NAME=
+AKS_RESOURCE_GROUP= AzurekamyKubernetProject
+AKS_CLUSTER_NAME= KamyClusterMonday
+ACR_RESOURCE_GROUP= AzurekamyKubernetProject
+ACR_NAME= kamymandagacr02
 
 # Get the id of the service principal configured for AKS
 CLIENT_ID=$(az aks show --resource-group AzurekamyKubernetProject --name KamyClusterMonday --query "servicePrincipalProfile.clientId" --output tsv)
